@@ -1,0 +1,14 @@
+SELECT * FROM student ;
+SELECT * FROM employee WHERE employee.postal = '425001' ;
+SELECT * FROM employee WHERE employee.name = 'Venus' ;
+SELECT * FROM employee LIMIT 5 ;
+SELECT DISTINC FROM employee ORDER BY ASC ;
+SELECT COUNT( * ) FROM employee WHERE employee.birthyear = '1992' ;
+SELECT AVG( DISTINCT employee.salary ) FROM employee ;
+SELECT MAX( DISTINCT employee.salary ) FROM employee ;
+SELECT * FROM employee WHERE ( employee.birthyear BETWEEN '1992' AND '1994' )  ;
+SELECT * FROM employee WHERE employee.postal = '425001' AND employee.birthyear = '1992' ;
+SELECT DISTINC FROM employee WHERE employee.postal = '425001' ORDER BY ASC LIMIT 5 ;
+SELECT DISTINCT employee.id, student.ID, class.profname FROM student INNER JOIN class ON student.ID = class.studentid WHERE student.ID = '1' ;
+DELETE FROM employee WHERE employee.birthyear = '1992' ;
+UPDATE employee SET employee.country = India WHERE employee.birthyear = '1992' ;

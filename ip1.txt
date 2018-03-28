@@ -1,0 +1,14 @@
+list all student
+list all employee whoes postal = 425001
+list employee having name Venus
+list 5 employee 
+list employe sort alphabetically
+count employee whoes birthyear = 1992
+what is average salary of employee
+highest salary of employee
+find employee with brithyear between 1992 and 1994
+list all employee whoes postal = 425001 and birthyear = 1992
+list 5 employee whoes postal = 425001 arrange alphabetically
+find the id and profname where id = 1 from class
+delete employee whoes birthyear is 1992
+update employee set country = India whose birthyear = 1992
